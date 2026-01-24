@@ -52,6 +52,7 @@
       "type": "host",
       "key": "",
       "keyColor": "green",
+      "format": "Asus Zenbook UX3404",
     },
     {
       "type": "command",
@@ -59,7 +60,7 @@
       "keyColor": "green",
       "text": "version=$(omarchy-version); echo \"Omarchy $version\"",
     },
-   
+
     // {
     //   "type": "uptime",
     //   "key": "󰥔",
@@ -77,12 +78,14 @@
       "type": "wm",
       "key": "",
       "keyColor": "yellow",
+      "format": "Hyprland",
     },
 
     {
       "type": "terminal",
       "key": "",
       "keyColor": "yellow",
+      "format": "Alacritty",
     },
     {
       "type": "command",
@@ -96,13 +99,14 @@
       "type": "cpu",
       "key": "",
       "keyColor": "red",
-      "showPeCoreCount": true,
+      "format": "13th Gen Intel Core i5-13500H",
     },
     {
       "type": "gpu",
       "key": "󰢮",
       "detectionMethod": "pci",
       "keyColor": "red",
+      "format": "Intel Iris Xe Graphics [Integrated]",
     },
     {
       "type": "memory",
