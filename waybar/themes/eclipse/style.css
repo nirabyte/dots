@@ -195,13 +195,15 @@ tooltip {
 #custom-voxtype.recording {
     color: @background;
 }*/
+
+
 /*
 #custom-timer {
     background-color: #1e1e2e;
     padding: 0 7px;
     font-size: 12.5px;
     margin-left: 0px;
-
+  border-radius: 15px;
     font-family: "CaskaydiaMono Nerd Font";
     transition: all 0.2s ease;
 }
@@ -210,8 +212,6 @@ tooltip {
     background-color: transparent;
     color: #bfbfbf;
     opacity: 0.6;
-    font-weight: normal;
-
     animation-duration: 1s;
     animation-timing-function: ease-in-out;
     animation-direction: alternate;

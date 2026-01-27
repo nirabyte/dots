@@ -40,14 +40,14 @@
     "disable-scroll": false,
     "all-outputs": true,
     "on-click": "activate",
-    "format": "{name} ",
+    "format": "{name} {windows}",
     // "formaft-window-separator": " | ",
     "window-rewrite-default": "{}",
     "workspace-taskbar": {
       "enable": true,
       "format": "{icon}",
       "icon-size": 16,
-      "icon-theme": "nord-mono-light",
+      "icon-theme": "YAMIS",
     },
     "sort-by-number": true,
     "persistent-workspaces": {
