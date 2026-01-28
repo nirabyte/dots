@@ -6,6 +6,7 @@
     font-family: "CaskaydiaMono Nerd Font";
     font-size: 12px;
 }
+
 window#waybar {
     border-radius: 20px;
     background-color: @background;
@@ -97,7 +98,6 @@ window#waybar.empty #window {
     margin-right: 6;
     font-weight: bold;
 }*/
-
 
 #tray {
     margin-right: 10px;
@@ -195,7 +195,6 @@ tooltip {
 #custom-voxtype.recording {
     color: @background;
 }*/
-
 
 /*
 #custom-timer {

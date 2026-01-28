@@ -4,7 +4,6 @@
   "position": "top",
   "spacing": 0,
   "margin-left": 1,
-
   "margin-right": 1,
   "height": 26,
   "modules-left": [
@@ -55,9 +54,7 @@
   },
   "custom/omarchy": {
     "format": "",
-    // "format": "",
     "on-click": "omarchy-menu-tofi",
-    // "on-click-right": "sh -c 'wlogout'",
     "tooltip-format": "Menu",
   },
   "custom/update": {
@@ -97,31 +94,31 @@
   //   },
   // },
 
-  "cpu": {
-    "interval": 3,
-    "format": "CPU {icon}  ",
-    "format-icons": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-    ],
-    "on-click": "omarchy-launch-or-focus-tui btop",
-  },
+  // "cpu": {
+  //   "interval": 5,
+  //   "format": "CPU {icon}  ",
+  //   "format-icons": [
+  //     "",
+  //     "",
+  //     "",
+  //     "",
+  //     "",
+  //     "",
+  //     "",
+  //     "",
+  //     "",
+  //     "",
+  //     "",
+  //     "",
+  //     "",
+  //     "",
+  //     "",
+  //   ],
+  //   "on-click": "omarchy-launch-or-focus-tui btop",
+  // },
   "memory": {
     "format": "MEM {icon}  ",
-    "interval": 3,
+    "interval": 5,
     "on-click": "omarchy-launch-or-focus-tui btop",
     "format-icons": [
       "",
@@ -150,7 +147,6 @@
     "tooltip": true,
     "tooltip-format": "{:%Y-%m-%d %A}\n{calendar}",
 
-    // Calendar settings
     "calendar": {
       "mode": "month",
       "mode-mon-col": 3,
@@ -159,19 +155,16 @@
 
       "format": {
         "months": "{}",
-        // "days": "{}<",
         "weeks": "W{}",
         "weekdays": "{}",
         "today": "<span color='#ffead3'><b>{}</b></span>",
       },
     },
-
-    // Mouse controls inside the calendar tooltip
     "actions": {
-      "on-click-right": "mode", // right-click → toggle year ↔ month
-      "on-scroll-up": "shift_up", // scroll up   → future year/month
-      "on-scroll-down": "shift_down", // scroll down → past year/month
-      "on-click-middle": "shift_reset", // middle-click → jump back to today / current view
+      "on-click-right": "mode",
+      "on-scroll-up": "shift_up",
+      "on-scroll-down": "shift_down",
+      "on-click-middle": "shift_reset",
     },
   },
 
@@ -241,7 +234,7 @@
     "format-full": "BAT    ",
     "tooltip-format-discharging": "{power:>1.0f}W↓ {capacity}%",
     "tooltip-format-charging": "{power:>1.0f}W↑ {capacity}%",
-    "interval": 2,
+    "interval": 3,
     "on-click": "omarchy-menu-tofi profile",
     "on-click-right": "omarchy-menu-tofi power",
     "states": {
