@@ -235,11 +235,19 @@
     "tooltip-format-discharging": "{power:>1.0f}W↓ {capacity}%",
     "tooltip-format-charging": "{power:>1.0f}W↑ {capacity}%",
     "interval": 3,
+
     "on-click": "omarchy-menu-tofi profile",
     "on-click-right": "omarchy-menu-tofi power",
     "states": {
+      "healthy": 79,
       "warning": 20,
       "critical": 10,
+    },
+    "events": {
+      "on-discharging-warning": "notify-send -u normal '󱐋 Time to recharge!' 'Battery is down to 20%'",
+      "on-discharging-critical": "notify-send -u critical ' Plug in now!' 'Battery is down to 10%",
+      "on-charging-healthy": "notify-send -u normal '󱈏  Battery is at 80%' 'Safe to unplug!",
+      "on-charging-100": "notify-send -u normal '󰁹 Battery Full!' 'Unplug the charger!",
     },
   },
   // "custom/voxtype": {
