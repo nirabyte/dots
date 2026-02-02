@@ -27,7 +27,7 @@
     "tray",
     // "cpu",
 
-    "bluetooth",
+    // "bluetooth",
     "pulseaudio",
     "memory",
     // "temperature",
