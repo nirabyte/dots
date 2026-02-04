@@ -1,15 +1,7 @@
 #!/bin/bash
 
-UNITS="metric"
-SYMBOL="°C"; 
-API_URL="https://api.open-meteo.com/v1/forecast"
+curl -s "wttr.in/?format=%c%t" | sed 's/+//'
 
-# get loc
-loc=$(curl -sf "https://free.freeipapi.com/api/json")
-lat=$(echo "$loc" | jq -r '.latitude')
-lon=$(echo "$loc" | jq -r '.longitude')
-
-weather=$(curl -sf "$API_URL?latitude=$lat&longitude=$lon&current=temperature_2m,weather_code,is_day&temperature_unit=$( [ "$UNITS" = "metric" ] && echo "celsius" || echo "fahrenheit" )&timezone=auto")
 
 # batt info
 battery_path="/sys/class/power_supply/BAT0"
