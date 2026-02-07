@@ -42,7 +42,7 @@ window#waybar {
     border-radius: 20px;
     background: rgba(255, 255, 255, 0.02);
     color: @foreground;
-    transition: all 0.6s cubic-bezier(0.34, 1.56, 0.64, 1);
+    transition: all 0.2s cubic-bezier(0.34, 1.56, 0.64, 1);
 }
 
 #workspaces button:hover {
@@ -63,7 +63,7 @@ window#waybar {
         0px 0px 30px rgba(100, 217, 255, 0.3),
         inset 0px 2px 10px rgba(255, 255, 255, 0.2);
     color: rgba(100, 217, 255, 1);
-    transition: all 0.6s cubic-bezier(0.34, 1.56, 0.64, 1);
+    transition: all 0.2s cubic-bezier(0.34, 1.56, 0.64, 1);
 }
 
 #workspaces button.empty {
