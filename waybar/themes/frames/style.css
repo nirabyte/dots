@@ -85,8 +85,8 @@ window#waybar {
 
 #workspaces button {
     all: initial;
-    padding: 0 10px;
-    margin: 0 3px;
+    padding: 0 12px;
+    margin: 0 2px;
     min-width: 9px;
     /*border-radius: 3px;*/
     transition: all 0.1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
@@ -185,12 +185,11 @@ window#waybar.empty #window {
     font-size: 12;
 }
 #custom-omarchy {
-    padding-right: 3px;
+    font-size: 12.5;
+
     transition: all 0.1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
-#custom-omarchy:hover {
-    font-size: 14;
-}
+
 /*#custom-analog-clock {
     font-family: "SimpleAnalogClockFont";
     font-size: 11px;
